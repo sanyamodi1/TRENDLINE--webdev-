@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    padding: 0 2vw;
+    height:70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.shape{
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.menu{
+    height:70px;
+    display: flex;
+    align-items: center;
+    gap:1vw;
+}
+menu h5{
+    font-weight: 100;
+}
+.nav2{
+    /* background-color: aquamarine; */
+    padding: 0 2vw;
+    height: 70px;
+    display: flex;
+    gap:4vw;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav2 h6{
+    font-weight: 500;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(181, 242, 242); */
+    height: calc(100% - 140px);
+}
+.content{
+    padding-left: 5vw;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
+}
+.content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+.content::-webkit-scrollbar-thumb{
+    background-color: rgba(238, 71, 10, 0.709);
+}
+.name{
+    flex-shrink: 0;
+    width:50%;
+    font-size: 3vw;
+}
+.name h1{
+    font-weight: 300;
+}
+.images{
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#img1{
+    background-image: url(23_December_Eyeglasses_Collection_Page_Images_x800.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img2{
+    background-image: url(BLOG_Makeup_for_glasses_wearers_SEO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 15%;
+}
+#img3{
+    background-image: url(BlogHero_Monarch-23118.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 20%;
+}
+
+.img{
+    flex-shrink: 0;
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.hey{
+    object-fit: contain;
+}
+.images::-webkit-scrollbar{
+    display: none;
+}
